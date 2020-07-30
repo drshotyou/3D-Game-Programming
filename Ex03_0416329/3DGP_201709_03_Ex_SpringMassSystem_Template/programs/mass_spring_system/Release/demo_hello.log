@@ -1,0 +1,32 @@
+﻿Build started 12/17/2017 9:56:36 PM.
+     1>Project "C:\Users\John Snow\Downloads\3DGP_201709_03_Ex_SpringMassSystem_Template\3DGP_201709_03_Ex_SpringMassSystem_Template\programs\mass_spring_system\demo_hello.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\demo_hello.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\OGRE /I..\..\include\OIS /I..\..\boost_1_42 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\MassSpringSystem.cpp
+         MassSpringSystem.cpp
+     1>source\MassSpringSystem.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>source\MassSpringSystem.cpp(60): warning C4305: 'initializing' : truncation from 'double' to 'Ogre::Real'
+     1>source\MassSpringSystem.cpp(123): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source\MassSpringSystem.cpp(150): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source\MassSpringSystem.cpp(170): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\/demo_hello.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\Release /LIBPATH:..\..\lib\opt\ /LIBPATH:..\..\boost_1_42\lib ..\..\lib\release\OgreMain.lib "..\..\boost_1_42\lib\libboost_thread-vc100-mt-1_42.lib" "..\..\boost_1_42\lib\libboost_date_time-vc100-mt-1_42.lib" ..\..\lib\release\OgreRTShaderSystem.lib ..\..\lib\release\OIS.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\demo_hello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\John Snow\Downloads\3DGP_201709_03_Ex_SpringMassSystem_Template\3DGP_201709_03_Ex_SpringMassSystem_Template\programs\mass_spring_system\bin\Release\demo_hello.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\demo_hello.lib" /MACHINE:X86 Release\BaseApplication.obj
+         Release\BasicTools.obj
+         Release\MassSpringSystem.obj
+         Release\TutorialApplication.obj
+         Generating code
+         Finished generating code
+         demo_hello.vcxproj -> C:\Users\John Snow\Downloads\3DGP_201709_03_Ex_SpringMassSystem_Template\3DGP_201709_03_Ex_SpringMassSystem_Template\programs\mass_spring_system\bin\Release\demo_hello.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Release\/demo_hello.exe;#1" /manifest Release\demo_hello.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\demo_hello.unsuccessfulbuild".
+         Touching "Release\demo_hello.lastbuildstate".
+     1>Done Building Project "C:\Users\John Snow\Downloads\3DGP_201709_03_Ex_SpringMassSystem_Template\3DGP_201709_03_Ex_SpringMassSystem_Template\programs\mass_spring_system\demo_hello.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.00

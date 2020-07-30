@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="demo_hello">
+</Property><Property Name="Solution File" Value="D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.sln">
+</Property><Property Name="User Options File" Value="D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.suo">
+</Property><Property Name="Date" Value="Tuesday, March 17, 2015">
+</Property><Property Name="Time" Value="9:27 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="demo_hello.sln" Description="File successfully backed up as D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="demo_hello.suo" Description="Error creating backup file: D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.suo.old">
+</Event><Event ErrorLevel="0" Project="demo_hello" Source="demo_hello.vcproj" Description="Converting project file 'D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.vcproj'.">
+</Event><Event ErrorLevel="1" Project="demo_hello" Source="demo_hello.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="demo_hello" Source="demo_hello.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="demo_hello" Source="demo_hello.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="demo_hello" Source="demo_hello.vcproj" Description="Done converting to new project file 'D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_02_201502_ControlCharacters\demo_hello.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="demo_hello" Source="demo_hello.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="demo_hello.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="demo_hello.sln" Description="Converted">
+</Event></UpgradeLog>

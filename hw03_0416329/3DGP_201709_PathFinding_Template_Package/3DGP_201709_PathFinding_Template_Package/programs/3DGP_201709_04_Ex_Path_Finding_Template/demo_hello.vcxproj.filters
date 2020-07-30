@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{b6c90a24-b52a-4755-8e06-967f67b3c501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\TutorialApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseApplication.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BasicTools.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selection_rectangle.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map_path_finding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\TutorialApplication.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseApplication.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BasicTools.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\selection_rectangle.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
